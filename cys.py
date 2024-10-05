@@ -3,7 +3,7 @@ import os
 # Define paths
 path = r"C:\\"
 path2 = r"D:\\"
-path3 = r"G:\\Mon Drive"
+path3 = r"G:\\My Drive"
 
 # Get user input and ensure it's an integer
 what_path = int(input("What path do you want? 1, 2, or 3: "))
