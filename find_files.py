@@ -3,7 +3,7 @@ from pathlib import Path
 import glob
 
 def path_exist():
-    path = r"C:\Users\veraf\Desktop\VsCode"
+    path = r"" #put here you'r path
     try:
         if os.path.exists(path):
             print(f"{path}: path does exist")
