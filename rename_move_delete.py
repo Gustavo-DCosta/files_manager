@@ -2,7 +2,7 @@ import os
 import shutil
 
 # Define the path for the file to modify
-path_changes = r"C:\Users\veraf\Desktop\programaçao\Le système_binaire.odt"
+path_changes = r"" #the path you chose
 
 def create_files(): # Try to open or create a new Python file, handling errors
     try:
@@ -28,8 +28,8 @@ def remove_files():
 
 def moving_path():
     try:    
-        start = r"C:\Users\veraf\Desktop\VsCode\newfile1a.py"
-        destination = r"C:\Users\veraf\Desktop\programaçao"
+        start = r""    #the folder/file you want to move
+        destination = r"" #the path in wich the file/directory will be moved into
         shutil.move(start, destination)
     except:
         print("something went wrong, couldn't move you'r files")
