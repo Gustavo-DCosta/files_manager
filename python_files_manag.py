@@ -36,7 +36,7 @@ def look_partitions():
 
 look_partitions()
 
-path = input("What's the path you want to use? Please insert with example r'G:\\Mon Drive': ")
+path = input("What's the path you want to use? Please insert with example G:\My Drive: ") what do you want to manage (depository/file)
 
 try:
     # Get the file/directory stats
